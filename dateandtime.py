@@ -34,7 +34,7 @@ while(True):
     t=db.time
     print(t)
 #    print(t)
-    
+    ##
     #db.timeStart(1)
     if((jam in t)and i==1):
         print("berhasil")
