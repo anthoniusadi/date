@@ -1,19 +1,16 @@
 from datetime import datetime
 import time
 import dbintegrate as db
-
-
 #print(db.time)
 i=1
 while(True):
-    
+    ##! initialize date and time
     current = datetime.now()
     tahun = current.year
     bulan = current.month
     hari = current.day
     jam = str(current.hour)
     menit = current.minute
-    
     detik = current.second
     now = ("{}".format(jam,menit))
     date = ("{}-{}-{}".format(tahun,bulan,hari))
